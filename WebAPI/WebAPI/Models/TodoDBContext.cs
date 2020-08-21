@@ -12,6 +12,6 @@ namespace WebAPI.Model
         {
         }
 
-        public DbSet<TodoEntry> TodoEntries { get; set; }
+        public DbSet<TodoEntry> TodoEntries { get; set; } //Table
     }
 }
